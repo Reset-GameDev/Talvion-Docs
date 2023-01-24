@@ -21,3 +21,34 @@
   align-items: center;
   justify-content: center;
 }
+
+.headerBefore {
+  position: relative;
+  background-image: url('/img/talvion_screenshot.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.headerBefore::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+  z-index: 0;
+} 
+
+.headerBefore_0_4::before {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.headerBefore_0_6::before {
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.headerAfter {
+  z-index: 1;
+}

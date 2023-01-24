@@ -7,17 +7,17 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Talvion',
-  tagline: 'Dokumentacja',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Documentation',
+  url: 'https://gitlab.mganczarczyk.pl',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://gitlab.mganczarczyk.pl/uploads/-/system/project/avatar/132/icon.png',
+  favicon: 'img/img_favicon.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Talvion', // Usually your GitHub org/user name.
+  projectName: 'Talvion', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -34,9 +34,15 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [
+            [require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}],
+          ],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
+        pages: {
+          remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -52,12 +58,12 @@ const config = {
         title: 'Talvion',
         logo: {
           alt: 'Talvion',
-          src: 'https://gitlab.mganczarczyk.pl/uploads/-/system/project/avatar/132/icon.png',
+          src: 'img/img_favicon.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Talvion',
             position: 'left',
             label: 'Docs',
           },
@@ -67,16 +73,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Dokumentacja',
+            title: 'Documentation',
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/docs/Talvion',
               },
             ],
           },
           {
-            title: 'Twórcy',
+            title: 'Authors',
             items: [
               {
                 html: '<a class="footer__link-item">Łakasabasz#6425</a>',
@@ -87,10 +93,13 @@ const config = {
               {
                 html: '<a class="footer__link-item">owarin#3899</a>',
               },
+              {
+                html: '<a class="footer__link-item">ryann#8876</a>',
+              },
             ],
           },
           {
-            title: 'Więcej',
+            title: 'More',
             items: [
               {
                 label: 'GitLab',
