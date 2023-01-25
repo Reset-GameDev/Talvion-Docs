@@ -8,7 +8,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const config = {
   title: 'Talvion',
   tagline: 'Documentation',
-  url: 'https://gitlab.mganczarczyk.pl',
+  url: 'https://talvion.gitlab.mganczarczyk.pl',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
