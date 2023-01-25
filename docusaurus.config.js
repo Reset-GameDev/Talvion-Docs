@@ -8,8 +8,8 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const config = {
   title: 'Talvion',
   tagline: 'Documentation',
-  url: 'https://talvion.gitlab.mganczarczyk.pl',
-  baseUrl: '/',
+  url: 'https://talvion.pages.mganczarczyk.pl',
+  baseUrl: '/talvion',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/img_favicon.png',
