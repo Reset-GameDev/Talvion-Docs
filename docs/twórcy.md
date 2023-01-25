@@ -12,6 +12,8 @@ sidebar_position: 99999
   - [Plan ATH](https://play.google.com/store/apps/details?id=pl.mganczarczyk.PLANATH)
   - [GitHub](https://github.com/TheMultii/)
 - owarin#3899
-  - [GitHub](#)
+  - [GitHub](https://github.com/tsunwitch)
+  - [YouTube](https://www.youtube.com/channel/UC-SInPKQHhVLgtEYBe2TqfQ)
+  - [Twitter](https://twitter.com/owarin_uwu)
 - ryann#8876
   - [GitHub](#)
