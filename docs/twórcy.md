@@ -13,7 +13,7 @@ sidebar_position: 99999
   - [GitHub](https://github.com/TheMultii/)
 - owarin#3899
   - [GitHub](https://github.com/tsunwitch)
-  - [YouTube](https://www.youtube.com/channel/UC-SInPKQHhVLgtEYBe2TqfQ)
+  - [YouTube](https://www.youtube.com/@owarin_)
   - [Twitter](https://twitter.com/owarin_uwu)
 - ryann#8876
   - [GitHub](#)
