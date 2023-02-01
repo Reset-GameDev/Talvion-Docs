@@ -1,3 +1,8 @@
+---
+name: Styl pisania kodu
+sidebar_position: 1
+---
+
 # Styl pisania kodu
 ## Nazywanie plików
 - Nazwa sceny powinna być zgodna z **PascalCase**
