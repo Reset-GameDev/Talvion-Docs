@@ -1,8 +1,8 @@
 {
   "label": "Playground",
-  "position": 2,
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Playground is a place where you can check out examples of supported Markdown syntax."
+    "description": "Playground to miejsce, gdzie można sprawdzić przykłady obsługiwanej składni Markdown."
   }
 }
