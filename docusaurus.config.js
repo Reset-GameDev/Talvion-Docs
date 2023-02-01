@@ -14,6 +14,16 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/img_favicon.png',
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      ({
+        hashed: true,
+        language: 'en'
+      }),
+    ],
+  ],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Talvion', // Usually your GitHub org/user name.
