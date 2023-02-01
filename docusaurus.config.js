@@ -73,7 +73,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'Talvion',
+            docId: 'Talvion/Talvion',
             position: 'left',
             label: 'Docs',
           },
