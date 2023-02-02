@@ -26,6 +26,7 @@ sidebar_position: 1
 - Nazwy zmiennych globalnych powinny być zgodne z **camelCase**
 - Nazwy zmiennych prywatnych powinny być zgodne z **camelCase** (rozpoczynając od znaku `_`)
 - Nazwy zmiennych lokalnych powinny być zgodne z **nocase** lub korzystać z dowolnej formy, ale w sposób taki, który nie będzie wprowadzał w błąd
+- Nazwy sygnałów z plików \*.gd powinny być zgodne z **snake_case**
 
 ## Wytyczne dotyczące typowania
 Każda funkcja oraz zmienna globalna musi mieć podany typ, z wyjątkiem sytuacji gdy typ jest trudny lub niemożliwy do zdefiniowania
