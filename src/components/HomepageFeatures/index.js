@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/logo_vertical_color_light.svg').default,
     description: (
       <>
-        Game is made with Godot Engine version 4.0 (Beta 2). Godot is free and
+        Game is made with Godot Engine version 4.0 (Beta | Mono). Godot is free and
         open-source game engine for 2D and 3D games (including VR). It is
         cross-platform and supports Windows, Linux, macOS, Android, iOS, HTML5,
         UWP, PlayStation 4, Xbox One, Nintendo Switch, and possibly more in the
