@@ -104,6 +104,9 @@ const config = {
                 html: '<a class="footer__link-item">owarin#3899</a>',
               },
               {
+                html: '<a class="footer__link-item">JakubJKrawczyk#1237</a>',
+              },
+              {
                 html: '<a class="footer__link-item">ryann#8876</a>',
               },
             ],
