@@ -15,5 +15,8 @@ sidebar_position: 99999
   - [GitHub](https://github.com/tsunwitch)
   - [YouTube](https://www.youtube.com/@owarin_)
   - [Twitter](https://twitter.com/owarin_uwu)
+- JakubJKrawczyk#1237
+  - [WWW](https://jakubkrawczyk.com)
+  - [GitHub](https://github.com/JakubJKrawczyk)
 - ryann#8876
   - [GitHub](#)
